@@ -1,0 +1,35 @@
+body {
+    margin:0;
+    padding:0;
+    background-color:#989898;
+}
+
+#frame {
+    height: 400px;
+    width: 650px;
+    background-image:url(bg.png);
+    background-size:100% 100%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index:10;
+}
+
+#main {
+    width:602px;
+    height:350px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+
+#panel {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index:-2;
+}
