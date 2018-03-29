@@ -17,13 +17,19 @@
             <div id="seek-bar">
                 <div id="fill"></div>
             </div>
-            <table border="1">
+            <table style="background-color:#979797;opacity:0.8;border:solid #FFF 3px;">
                 <tr>
                     <td width="55%">
                        <div id="currentTime">00:00 / 00:00</div>
                     </td>
                     <td width="30%">
                         <img id="playbtn" src="play.png" onclick="playOrPause()" />
+                    </td>
+                    <td>
+                        <img src="speaker.png" id="speaker">
+                    </td>
+                    <td>
+                        <input type="range" id="volume" min="0" max="1" value="0.40" step="0.20" onchange="changeVolume()"/>
                     </td>
                 </tr>
             </table>

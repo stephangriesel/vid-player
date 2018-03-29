@@ -61,3 +61,22 @@ body {
     width:10px;
     background-color: #FFFFFF;
 }
+
+#currentTime {
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: 600;
+    color:#FFFFFF;
+}
+
+#playbtn {
+    cursor:pointer;
+}
+
+/*input[type=range] {
+    appearance: none;
+    background-color: #FFF;
+    height:4px;
+    border-radius: 1px;
+    outline: none;
+}*/
