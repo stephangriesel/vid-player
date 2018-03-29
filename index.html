@@ -13,6 +13,21 @@
         <div id="panel">
             <video id="myvideo" width="625" height="400" src="samvid.mp4"></video>
         </div>
+        <div id="controls">
+            <div id="seek-bar">
+                <div id="fill"></div>
+            </div>
+            <table border="1">
+                <tr>
+                    <td width="55%">
+                       <div id="currentTime">00:00 / 00:00</div>
+                    </td>
+                    <td width="30%">
+                        <img id="playbtn" src="play.png" onclick="playOrPause()" />
+                    </td>
+                </tr>
+            </table>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
